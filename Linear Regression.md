@@ -5,7 +5,7 @@ relationship between a dependent variable and one or more independent variables.
 Let **X** be the independent variable and **Y** be the dependent variable. We
 will define a linear relationship between these two variables as follows:
 
-![image](https://user-images.githubusercontent.com/36807028/62227651-f028ed80-b3d9-11e9-919e-753214e475f6.png)https://miro.medium.com/max/375/1\*p3LTR6GB6g2MpRZzE5JIxw.png
+![image](https://user-images.githubusercontent.com/36807028/62227651-f028ed80-b3d9-11e9-919e-753214e475f6.png)
 
 ![image](<https://user-images.githubusercontent.com/36807028/62227740-18b0e780-b3da-11e9-976c-605e88bafa7f.png>)
 
@@ -27,16 +27,12 @@ three steps in this function:
 
 3.  Find the mean of the squares for every value in X.
 
-https://miro.medium.com/max/375/1\*_y5QA1yF4w6LDDRxfTt6GA.jpeg
+![image](<https://user-images.githubusercontent.com/36807028/62228067-a42a7880-b3da-11e9-9b83-340f3e205559.png>)
 
-https://miro.medium.com/max/375/1\*_y5QA1yF4w6LDDRxfTt6GA.jpeg
+*![image](*<https://user-images.githubusercontent.com/36807028/62228067-a42a7880-b3da-11e9-9b83-340f3e205559.png>*)*
 
 Here yᵢ is the actual value and ȳᵢ is the predicted value. Lets substitute the
 value of ȳᵢ:
-
-https://miro.medium.com/max/500/1\*3cpC7oHy4IbH3o3Jc-ygVw.jpeg
-
-https://miro.medium.com/max/500/1\*3cpC7oHy4IbH3o3Jc-ygVw.jpeg
 
 So we square the error and find the mean. hence the name Mean Squared Error. Now
 that we have defined the loss function, lets get into the interesting part —
