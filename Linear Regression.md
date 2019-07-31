@@ -29,10 +29,10 @@ three steps in this function:
 
 ![image](<https://user-images.githubusercontent.com/36807028/62228067-a42a7880-b3da-11e9-9b83-340f3e205559.png>)
 
-*![image](*<https://user-images.githubusercontent.com/36807028/62228067-a42a7880-b3da-11e9-9b83-340f3e205559.png>*)*
-
 Here yᵢ is the actual value and ȳᵢ is the predicted value. Lets substitute the
 value of ȳᵢ:
+
+![image](https://user-images.githubusercontent.com/36807028/62228271-f8355d00-b3da-11e9-809d-52a028d8cc25.png)
 
 So we square the error and find the mean. hence the name Mean Squared Error. Now
 that we have defined the loss function, lets get into the interesting part —
@@ -44,9 +44,7 @@ The Gradient Descent Algorithm
 Gradient descent is an iterative optimization algorithm to find the minimum of a
 function. 
 
-https://miro.medium.com/max/875/1\*N5WjbzwsCFse-KPjBWZZ6g.jpeg
-
-https://miro.medium.com/max/875/1\*N5WjbzwsCFse-KPjBWZZ6g.jpeg
+![image](https://user-images.githubusercontent.com/36807028/62228297-05eae280-b3db-11e9-9849-ff2bb1096c2e.png)
 
 Imagine a valley and a person with no sense of direction who wants to get to the
 bottom of the valley. He goes down the slope and takes large steps when the
@@ -64,9 +62,9 @@ step:
     plug in the current values of x, y, m and c in it to obtain the derivative
     value **D**.
 
-https://miro.medium.com/max/500/1\*FvYfCBrl2gX9K-KxSO1eIw.jpeg
+![image](https://user-images.githubusercontent.com/36807028/62228297-05eae280-b3db-11e9-9849-ff2bb1096c2e.png)
 
-https://miro.medium.com/max/500/1\*FvYfCBrl2gX9K-KxSO1eIw.jpeg
+![image](https://user-images.githubusercontent.com/36807028/62228385-2ca91900-b3db-11e9-8d94-45b367efeb72.png)
 
 Derivative with respect to **m**
 
