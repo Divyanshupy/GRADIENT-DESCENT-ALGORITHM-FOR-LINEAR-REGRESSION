@@ -62,8 +62,6 @@ step:
     plug in the current values of x, y, m and c in it to obtain the derivative
     value **D**.
 
-![image](https://user-images.githubusercontent.com/36807028/62228297-05eae280-b3db-11e9-9849-ff2bb1096c2e.png)
-
 ![image](https://user-images.githubusercontent.com/36807028/62228385-2ca91900-b3db-11e9-8d94-45b367efeb72.png)
 
 Derivative with respect to **m**
@@ -71,18 +69,15 @@ Derivative with respect to **m**
 Dₘ is the value of the partial derivative with respect to **m**. Similarly lets
 find the partial derivative with respect to **c**, Dc :
 
-https://miro.medium.com/max/375/1\*rj09w2TcBxnHPtQ0oq4ehA.jpeg
+![image](https://user-images.githubusercontent.com/36807028/62228524-709c1e00-b3db-11e9-858d-71d6cadf2205.png)
 
-https://miro.medium.com/max/375/1\*rj09w2TcBxnHPtQ0oq4ehA.jpeg
+Now we update the current value of **m** and **c** using the following equation:
 
-1.  Now we update the current value of **m** and **c** using the following
-    equation:
+![image](https://user-images.githubusercontent.com/36807028/62228553-84478480-b3db-11e9-8749-2e26d03f8513.png)
 
->   https://miro.medium.com/max/375/1\*JDcHqFK8jLcgQu1cj2XuVQ.jpeg
-
-1.  We repeat this process until our loss function is a very small value or
-    ideally 0 (which means 0 error or 100% accuracy). The value
-    of **m** and **c**that we are left with now will be the optimum values.
+3.We repeat this process until our loss function is a very small value or
+ideally 0 (which means 0 error or 100% accuracy). The value
+of **m** and **c**that we are left with now will be the optimum values.
 
 Now going back to our analogy, **m** can be considered the current position of
 the person. **D** is equivalent to the steepness of the slope and **L** can be
